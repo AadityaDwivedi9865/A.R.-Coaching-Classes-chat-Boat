@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "@google/genai";
 import readlineSync from 'readline-sync';
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyB7VazNCf_m-F7W6RGteMX0dSULK5vTy3Q" }); // Replace with your actual API key
+const ai = new GoogleGenAI({ apiKey: "AIzaSyB7VazNCf_m-F7W6RGteMX0dSULK5vTy3Q" }); 
 const History = []
 
 async function EducationalChat(userQuestion) {
